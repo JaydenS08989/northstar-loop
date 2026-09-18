@@ -1,0 +1,55 @@
+{
+  "name": "northstar-loop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types src/utils/*.test.ts"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^7.9.4",
+    "@hookform/resolvers": "^5.9.1",
+    "@react-email/components": "^1.0.12",
+    "@reduxjs/toolkit": "^2.12.0",
+    "@tanstack/react-query": "^5.103.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^1.47.0",
+    "mongodb": "^7.6.0",
+    "next": "^16.2.5",
+    "openai": "^7.18.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-hook-form": "^7.88.0",
+    "react-redux": "^9.2.0",
+    "resend": "^6.28.1",
+    "svix": "^2.5.0",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.5",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9.35.0",
+    "eslint-config-next": "^16.2.5",
+    "postcss": "^8.5.14",
+    "postcss-load-config": "^6.0.1",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
