@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; --background: #ffffff; --foreground: #0a0a0a; }
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-neutral-950 antialiased; }
+* { border-color: theme(colors.neutral.200); }
+::selection { background: #111; color: #fff; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
